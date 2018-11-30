@@ -12,7 +12,6 @@ Supports node v8.
 - yarn
 
 ## installed node modules
-- vue-cli
 - create-nuxt-app
 - firebase-tools
 
