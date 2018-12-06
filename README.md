@@ -30,7 +30,7 @@ $ firebase login --no-localhost
 ## start development
 
 ```
-$ docker run -it --mount type=bind,src=$(pwd)/,dst=/apps -p 80:80 -p 3000:3000 -p 5000:5000 alpine-nuxt-firebase /bin/bash
+$ docker run -it --mount type=bind,src=$(pwd)/,dst=/apps -p 80:80 -p 3000:3000 -p 5000:5000 -p 5001:5001 alpine-nuxt-firebase /bin/bash
 
 bash-4.4# cd /apps
 bash-4.4# create-nuxt-app project-name
@@ -38,3 +38,11 @@ bash-4.4# cd project-name
 bash-4.4# yarn dev
 ```
 open http://localhost:3000/
+
+## firebase serve
+
+```
+bash-4.4# yarn build
+bash-4.4# firebase serve --host 0.0.0.0
+```
+open http://localhost:5000/
