@@ -2,11 +2,11 @@
 
 Nuxt.js and firebase-tools on Alpine.
 
-Supports node v8.
+Supports node v8 and v10.
 
 ## installed node version
-- node v6.11.5
-- node v8.11.1
+- node v8.15.0
+- node v10.15.3
 
 ## node package manager
 - yarn
@@ -14,6 +14,10 @@ Supports node v8.
 ## installed node modules
 - create-nuxt-app
 - firebase-tools
+- npm-check-updates
+
+## installed tools
+- gcloud (/root/google-cloud-sdk/bin/)
 
 ## build
 
